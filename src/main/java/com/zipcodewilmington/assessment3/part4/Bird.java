@@ -1,4 +1,4 @@
 package com.zipcodewilmington.assessment3.part4;
 
-public interface Bird {
+public abstract class Bird {
 }
