@@ -1,6 +1,8 @@
 package com.zipcodewilmington.assessment3.part3;
 
-public class Pet {
+import com.zipcodewilmington.assessment3.part4.Animal;
+
+public class Pet implements Animal {
     public Pet(){
 
     }
