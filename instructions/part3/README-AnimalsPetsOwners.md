@@ -1,7 +1,7 @@
 # AnimalsPetsOwners
 * **Objective:** To implement a `PetsOwner` which manipulates composite `Pet` objects.
 
-## Pet
+## Pet	
 * Ensure each of the test cases in the class [Pet]() successfully passes upon completion of each of the method stubs in the class [PetTest]().
     * `Pet()`
     * `Pet(String)`
@@ -119,7 +119,7 @@
     * `void addPet(Pet pet)`
     * `void removePet(Pet pet)`
     * `Boolean isOwnerOf(Pet pet)`
-    * `Integer getYoungetPetAge()`
+    * `Integer getYoungestPetAge()`
     * `Integer getOldestPetAge()`
     * `Double getAveragePetAge()`
     * `Integer getNumberOfPets()`

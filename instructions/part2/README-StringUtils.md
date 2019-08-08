@@ -124,6 +124,7 @@
 
    // Then
    System.out.println(outcome);
+   
     ```
 
 * Sample Output
@@ -131,11 +132,9 @@
     ```
     Snoops
     ```
-
-
-
-  
     
+    
+
 
 <br><br><br><br>
 ## `String removeCharacterAtIndex(String str, int index)`
@@ -144,6 +143,7 @@
 
 ### Example
 * Sample Script
+
     ```
    // Given
    String inputString = "Goal";
@@ -154,12 +154,12 @@
 
    // Then
    System.out.println(outcome);
+   
     ```
-
-
 
 * Sample Output
 
     ```
     Gol
     ```
+	

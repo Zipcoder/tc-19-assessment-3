@@ -14,6 +14,7 @@
 ## `Integer getSum(Integer[] intArray)`
 * **Description**
     * Given an Integer array, `intArray`, return the sum of all values in the array.
+    
 ### Example
 * Sample Script
 
@@ -55,6 +56,7 @@
 ## `Integer getProduct(Integer[] intArray)`
 * **Description**
     * Given an Integer array, `intArray`, return the product of all values in the array.
+
 ### Example
 * Sample Script
 
@@ -87,9 +89,10 @@
 
 
 <br><br><br><br>
-## `Integer getAverage(Integer[] intArray)`
+## `Double getAverage(Integer[] intArray)`
 * **Description**
     * Given an Integer array, `intArray`, return the sum of all values in the array.
+
 ### Example
 * Sample Script
 

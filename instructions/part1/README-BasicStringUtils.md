@@ -15,7 +15,8 @@
 <br><br><br><br>
 ## `String camelCase(String str)`
 * **Description**
-    * Given a string, `str`, return an identical String with the first character capitalized.
+    * Given a string, `str`, return an identical String with the first character of every word capitalized and all words concatinated.
+
 ### Example
 * Sample Script
 
@@ -35,7 +36,7 @@
 * Sample Output
 
     ```
-    Jumping jacks
+    JumpingJacks
     ```
 
 
@@ -88,7 +89,8 @@
 <br><br><br><br>
 ## `String reverseThenCamelCase(String str)`
 * **Description**
-    * Given a string, `str`, return a string with identical contents, in reverse order, with first character capitalized
+    * Given a string, `str`, return a string with identical contents, in reverse order, with the first character of every word capitalized and all words concatinated.
+
 ### Example
 * Sample Script
 
@@ -124,6 +126,7 @@
 ## `String removeFirstAndLastCharacter(String str)`
 * **Description**
     * Given a string, `str`, return a string with identical contents excluding first and last character.
+
 ### Example
 * Sample Script
 
