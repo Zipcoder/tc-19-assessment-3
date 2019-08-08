@@ -1,6 +1,5 @@
 package com.zipcodewilmington.assessment3.part2;
 
-import com.zipcodewilmington.assessment1.UnitTestingUtils;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -18,7 +17,7 @@ public class StringUtilsTest {
         String[] actual = StringUtils.getWords(inputString);
 
         // Then
-        UnitTestingUtils.assertArrayEquality(expected, actual);
+        Assert.assertArrayEquals(expected, actual);
     }
 
 
