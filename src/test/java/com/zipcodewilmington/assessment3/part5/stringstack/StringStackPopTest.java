@@ -1,14 +1,17 @@
 package com.zipcodewilmington.assessment3.part5.stringstack;
 
 import com.zipcodewilmington.assessment3.part5.MyStack;
+import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
-import rocks.zipcode.io.quiz4.utils.TestUtils;
+//import rocks.zipcode.io.quiz4.utils.TestUtils;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.EmptyStackException;
 import java.util.List;
+import java.util.stream.IntStream;
+import java.util.stream.Stream;
 
 /**
  * @author leon on 11/12/2018.
@@ -47,8 +50,16 @@ public class StringStackPopTest {
             result.add(stack.pop());
         }
 
-        String[] actual = TestUtils.reveseList(result).toArray(String[]::new);
+        String[] actual = reveseList(result).toArray(String[]::new);
         String[] expected = listOfElementsTobePushed.stream().toArray(String[]::new);
-        TestUtils.assertArrayEquals(expected, actual);
+        Assert.assertArrayEquals(expected, actual);
+    }
+
+    @SuppressWarnings("unchecked")
+    public static <T> Stream<T> reveseList(List<T> input) {
+        Object[] temp = input.toArray();
+
+        return (Stream<T>) IntStream.range(0, temp.length)
+                .mapToObj(i -> temp[temp.length - i - 1]);
     }
 }

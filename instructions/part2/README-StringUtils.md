@@ -130,7 +130,7 @@
 * Sample Output
 
     ```
-    Snoops
+    SnoopS
     ```
     
     
